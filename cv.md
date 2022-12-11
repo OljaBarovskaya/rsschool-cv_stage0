@@ -1,27 +1,33 @@
-### Olga Barovskaya 
+# Olga Barovskaya 
 
-#### Beginning Frontend Developer  
+#### Beginning Frontend Developer 
 
  
-**Contact information:** 
+**Contact information:**
+==================
 
 Phone: +375292883985 
+
 E-mail: asdfg1234_08@mail.ru 
+
 Discord: oliabarovskaya (oljabarovskaya)#1515 
  
 
-**About myself:** 
+**About myself:**
+------------------------
 
 I am veryresponsible, able to learn quickly, patient, nonconflict and tactful.  
 
-**Skills and proficiency:**  
+**Skills and proficiency:**
+------------------------
 
 * HTML5 
 
 * CSS3 
 
  
-**Education and job experience:** 
+**Education and job experience:**
+--------------------------
 
 * BSEU university, bachelor degree, business administration speciality (2012-2016); 
 
@@ -30,6 +36,7 @@ I am veryresponsible, able to learn quickly, patient, nonconflict and tactful.
  
 
 **Code example:**
+----------------------
 
 const assert = require("chai").assert; 
 
@@ -50,10 +57,13 @@ const assert = require("chai").assert;
 }); 
 
  
-**Projects:** 
+**Projects:**
+--------------------------
+
 CV#1. Markdown & Git 
 
-**Languages:** 
+**Languages:**
+---------------------------
 
 * English - B2 
 
