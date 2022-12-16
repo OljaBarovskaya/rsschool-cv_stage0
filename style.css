@@ -21,8 +21,12 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+body {
+  font-family:  'Source Sans Pro';
+}
+h2 {
+  font-family: 'Public Sans Bold';
+}
+h1{
+  font-family: 'Raleway';
 }
