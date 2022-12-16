@@ -30,3 +30,15 @@ h2 {
 h1{
   font-family: 'Raleway';
 }
+.avatar-container {
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;  
+}
+.name-container {
+  float: left;
+  width: 70%;
+  text-align: center;
+  border: 1px solid black;
+}
