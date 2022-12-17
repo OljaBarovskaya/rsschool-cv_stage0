@@ -1,3 +1,62 @@
-p {
-  color: blue;
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth; 
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body {
+  font-family:  'Source Sans Pro';
+}
+h2 {
+  font-family: 'Public Sans Bold';
+}
+h1{
+  font-family: 'Raleway';
+}
+.avatar-container {
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;  
+}
+.name-container {
+  float: left;
+  width: 70%;
+  text-align: center;
+  border: 1px solid black;
+}
+.nav-list {
+  border: 1px solid black;
+}
+.nav-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-list li {
+  float: left;
+}
+
+.nav-list li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
