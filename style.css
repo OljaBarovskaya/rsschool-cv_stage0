@@ -8,7 +8,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #f0eded;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -16,47 +18,103 @@ body {
 html {
   scroll-behavior: smooth; 
 }
+header {
+  background-color: #959392;
+}
+h1 {
+  color:#fbfbfb;
+  text-shadow: #f0eded;
+  font-size: 50px;
+}
+
+#avatar {
+  border-style: solid;
+  border-radius:50%;
+  border-color: #fbfbfb;
+  border-width: 7px;
+  margin: 10px;
+}
+nav {
+  background-color: #c8c7c6;
+}
 .nav-list {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-}
+  align-items: center;}
+  
+
+.nav-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.nav-list li {
+    float: left;
+  }
+  
+.nav-list li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    color:#454040;
+  }
+
+  
+  
 body {
   font-family:  'Source Sans Pro';
 }
 h2 {
   font-family: 'Public Sans Bold';
+  color: #454040;
+  text-transform: uppercase;
 }
 h1{
   font-family: 'Raleway';
 }
+.special1 p{
+  margin: 0.5em;
+}
 .avatar-container {
   float: left;
   width: 30%;
-  border: 1px solid black;
-  text-align: center;  
+    text-align: center;  
 }
 .name-container {
   float: left;
   width: 70%;
   text-align: center;
-  border: 1px solid black;
-}
-.nav-list {
-  border: 1px solid black;
-}
-.nav-list ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.nav-list li {
+  }
+
+.column-left {
   float: left;
+  width: 30%;
+  padding: 0px 10px; 
 }
 
-.nav-list li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.column-right {
+  float: left;
+  width: 70%;
+  padding: 0px 20px;
+  background-color: #fbfbfb;
 }
+footer {
+ background-color: #c8c7c6;
+ height: 70px;
+}
+.footer-link {
+  float: left;
+  display: block;
+  position: relative;
+  top: 5px;
+  padding: 10px;
+  background-color: #fbfbfb;
+  margin-right: 10px;
+}
+
+#footer-date {
+  float: right;
+  display: block;
+  }
