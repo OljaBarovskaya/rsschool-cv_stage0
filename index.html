@@ -10,18 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    </head>
+</head>
 
 <body>
 
  <header>
       <div class="container"> 
         <div class="avatar-container">
-        <img src="assets/img/avatar.jpg" alt="my photo" width="200px">
+        <img id="avatar" src="assets/img/avatar.jpg" alt="my photo" width="170px">
       </div>
       <div class="name-container">
-        <h1>Olga Barovskaya</h1> 
-        <h2>Beginning Frontend Developer</h2>
+        <h1 color="white"><b>Olga Barovskaya</b></h1> 
+        <h2 color="white">Beginning Frontend Developer</h2>
         </div>
     </div>
  </header>
@@ -44,68 +44,71 @@
           <div class="column-left">
              <section>
                <h2 id="Contact information">Contact information:</h2>           
-               <p>+375292883985</p> 
-               <p>E-mail: asdfg1234_08@mail.ru</p> 
-               <p>Discord: oliabarovskaya (oljabarovskaya)</p>
+               <p><b>Tel:</b> +375292883985</p> 
+               <p><b>E-mail:</b> asdfg1234_08@mail.ru</p> 
+               <p><b>Discord:</b> oliabarovskaya (oljabarovskaya)</p>
              </section>  
              <section>
               <h2 id="About myself">About myself:</h2> 
-              <p>I am very responsible, able to learn quickly, patient, non-conflict and tactful.</p>
+              <p style="text-indent: 1.5em">I am very responsible, able to learn quickly, patient, non-conflict and tactful.</p>
             </section>
           </div>
 
           <div class="column-right">
+            
             <section>
+              <h2 id="Education and work experience">Education and work experience:</h2> 
+               <ul>
+                <li>BSEU university, bachelor degree, business administration speciality (2012-2016);</li>
+                <li>Specialist in export cargo transportation (2016 – current time).</li>
+               </ul>
+             </section>
+             <section>
              <h2 id="Skills and proficiency">Skills and proficiency:</h2>
              <ul>
               <li>HTML5</li>
               <li>CSS3</li>
              </ul> 
             </section>
-            <section>
-             <h2 id="Education and work experience">Education and work experience:</h2> 
-              <ul>
-               <li>BSEU university, bachelor degree, business administration speciality (2012-2016);</li>
-               <li>Specialist in export cargo transportation (2016 – current time).</li>
-              </ul>
-            </section>
-            <section>
-             <h2 id="Code example">Code example:</h2>
-             <code>
-              <pre>
-                 const assert = require("chai").assert; 
-                 describe("Multiply", () => { 
-                 it("fixed tests", () => { 
-                 assert.strictEqual(multiply(1,1), 1); 
-                 assert.strictEqual(multiply(2,1), 2); 
-                 assert.strictEqual(multiply(2,2), 4); 
-                 assert.strictEqual(multiply(3,5), 15);    
-                 }); 
-                 });
-              </pre> 
-             </code>
-            </section>
+            <section class="special1">
+              <h2 id="Languages">Languages:</h2>
+              <p>English - B2</p>
+              <p>Russian – Native</p>
+              <p>Belarusian – Native</p>
+              <p>Spanish – Basic</p>
+             </section> 
+            
             <section>
              <h2 id="Projects">Projects:</h2>
-             <p> CV#1. Markdown & Git</p> 
+             <p> Markdown & Git - <a href="https://oljabarovskaya.github.io/rsschool-cv/cv" target="_blank">Смотреть</a></p> 
+             <p> CV - <a href="https://oljabarovskaya.github.io/rsschool-cv/" target="_blank">Смотреть</a></p>
             </section>
             <section>
-             <h2 id="Languages">Languages:</h2>
-             <p>English - B2</p>
-             <p>Russian – Native</p>
-             <p>Belarusian – Native</p>
-             <p>Spanish – Basic</p>
-            </section> 
+              <h2 id="Code example">Code example:</h2>
+              <code>
+               <pre>
+                  const assert = require("chai").assert; 
+                  describe("Multiply", () => { 
+                  it("fixed tests", () => { 
+                  assert.strictEqual(multiply(1,1), 1); 
+                  assert.strictEqual(multiply(2,1), 2); 
+                  assert.strictEqual(multiply(2,2), 4); 
+                  assert.strictEqual(multiply(3,5), 15);    
+                  }); 
+                  });
+               </pre> 
+              </code>
+             </section>
           </div>
         </div>
  </main>
 
  <footer>
   <div class="container"> 
-    <a class="footer-link-git" href="https://github.com/OljaBarovskaya" target="_blank">
+    <a class="footer-link" href="https://github.com/OljaBarovskaya" target="_blank">
       <img src="assets/img/github-picture.jpg" alt="github-picture" width="30px">
      </a>
-     <a class="footer-link-rs" href="https://rs.school/js/">
+     <a class="footer-link" href="https://rs.school/js/">
       <img src="assets/img/rs-logo.png" alt="course logo" height="30px">
      </a>
      <p id="footer-date"><b><small>created in </small>2022</b></p>
