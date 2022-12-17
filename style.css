@@ -19,8 +19,27 @@ html {
 .nav-list {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-}
+  align-items: center;}
+  
+.nav-list {
+    border: 1px solid black;
+  }
+.nav-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.nav-list li {
+    float: left;
+  }
+  
+.nav-list li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
 body {
   font-family:  'Source Sans Pro';
 }
@@ -42,21 +61,17 @@ h1{
   text-align: center;
   border: 1px solid black;
 }
-.nav-list {
-  border: 1px solid black;
-}
-.nav-list ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.nav-list li {
+
+.column-left {
   float: left;
+  width: 30%;
+  border: 1px solid black; 
+  padding: 0px 10px; 
 }
 
-.nav-list li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.column-right {
+  float: left;
+  width: 70%;
+  border: 1px solid black; 
+  padding: 0px 10px;
 }
