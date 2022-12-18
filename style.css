@@ -78,6 +78,10 @@ h2 {
 h1{
   font-family: 'Raleway';
 }
+.contacts-list {
+  list-style-type: none;
+  line-height: 2em;
+}
 .special1 p{
   margin: 0.5em;
 }
